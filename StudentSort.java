@@ -33,10 +33,10 @@ public class StudentSort {
             Student key = arr[i];
             int j = i - 1;
             while (j >= 0 && compare(arr[j], key, by, order) > 0) {
-                arr[j + 1] = arr[j]; // Shift element
+                arr[j + 1] = arr[j]; 
                 j--;
             }
-            arr[j + 1] = key; // Insert key in correct place
+            arr[j + 1] = key; 
         }
     }
 
